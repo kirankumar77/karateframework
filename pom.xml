@@ -86,7 +86,10 @@
 				<!-- ************************ Running the parallel runner with Karate-Config.js 
 					************************ -->
 					<configuration>
-					<forkCount>0</forkCount>
+						<forkCount>0</forkCount>
+						<argLine>
+						    --illegal-access=permit
+						</argLine>
 					<includes>
 						<include>**/ParallelBuilderWithCucumberReport.java</include>
 					</includes>
