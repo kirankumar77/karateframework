@@ -108,7 +108,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>com.api.automation.ReadSystemProperty</mainClass>
+                        <mainClass>com.api.automation.karateframework.ReadSystemProperty</mainClass>
                     </manifest>
                 </archive>
             </configuration>
