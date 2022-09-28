@@ -86,6 +86,7 @@
 				<!-- ************************ Running the parallel runner with Karate-Config.js 
 					************************ -->
 					<configuration>
+						<testFailureIgnore>true</testFailureIgnore>
 						<forkCount>0</forkCount>
 						<argLine>
 						    --illegal-access=permit
