@@ -85,7 +85,8 @@
 
 				<!-- ************************ Running the parallel runner with Karate-Config.js 
 					************************ -->
-				<configuration>
+					<configuration>
+					<forkCount>0</forkCount>
 					<includes>
 						<include>**/ParallelBuilderWithCucumberReport.java</include>
 					</includes>
